@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Figures</name>
+    </assembly>
+    <members>
+        <member name="T:Figures.Calculs">
+            <summary>
+            Clase abtract que fue heredada por el proyecto Triangle
+            </summary>
+        </member>
+        <member name="M:Figures.Calculs.Area(System.Int32,System.Int32)">
+            <summary>
+            Funcion sobreescrita para el futuro donde te calcula la area de algo y te devuelve un valor double
+            </summary>
+            <param name="dim1">Un parametro entero</param>
+            <param name="dim2">Dos parametro entero</param>
+            <returns></returns>
+        </member>
+        <member name="M:Figures.Calculs.Area(System.Int32)">
+            <summary>
+            Funcion que te calcula la area de un circulo con una unica variable
+            </summary>
+            <param name="dim1">Variable que se multiplicará por PI</param>
+            <returns></returns>
+        </member>
+        <member name="M:Figures.Calculs.Volum(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Funcion que te calcula el volumen de algo
+            </summary>
+            <param name="dim1">Un parametro entero</param>
+            <param name="dim2">Dos parametro entero</param>
+            <param name="dim3">Tres parametro entero</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
